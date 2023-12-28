@@ -1,6 +1,6 @@
 ```kotlin
 fun isPalindrome(word: String): Boolean {
-   var right: Int = word.size - 1
+   var right: Int = word.length - 1
    var left:  Int = 0
    while (left++ != right--) {
       if (word[left] != word[right]) {
